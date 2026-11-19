@@ -116,7 +116,7 @@ public class Analyzer {
             sb.append(String.format("None detected.%n"));
         } else {
             for (Alert a : alerts) {
-                sb.append(String.format("[%s] %-16s %s%n", a.type(), a.ip(), a.detail()));
+                sb.append(String.format("[%-11s] %-16s %s%n", a.type(), a.ip(), a.detail()));
             }
         }
         return sb.toString();
