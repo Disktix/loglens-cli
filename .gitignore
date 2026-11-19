@@ -1,0 +1,4 @@
+out/
+audit_report.txt
+*.class
+.DS_Store
