@@ -1,0 +1,1 @@
+a Zero-Dependency Server Log Analyzer & Anomaly Detector in Java. Instead of a generic CRUD app, it parses raw web server logs, detects suspicious traffic spikes or brute-force attempts, and generates a clean diagnostic report.
